@@ -11,7 +11,7 @@ namespace ConsoleRpg.Controllers
     /// <summary>
     /// Base class for all party controllers in the game.
     /// </summary>
-    public class PartyController
+    public abstract class PartyController
     {
         protected Side sideToControl;
         public PartyController(Side side)
