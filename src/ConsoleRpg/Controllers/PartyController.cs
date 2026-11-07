@@ -25,7 +25,7 @@ namespace ConsoleRpg.Controllers
         /// <param name="characterManager">Provides access to the active characters in the game.</param>
         /// <param name="character">The character taking the turn.</param>
         /// <param name="activeParty">The party of the character.</param>
-        public virtual void TakeTurn(CharacterManager characterManager, Character character, Party activeParty) {}
+        public abstract void TakeTurn(CharacterManager characterManager, Character character, Party activeParty);
 
         /// <summary>
         /// Determines whether the controlled character and another character are on the same side.
